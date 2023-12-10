@@ -20,9 +20,39 @@
     />
   </head>
   <body>
-    <div id="app">
-      <h1>Vite App</h1>
-    </div>
+    <header class="header">
+      <h1>Minimal Blog Card</h1>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="blog-card-section">
+          <div class="blog-card">
+            <div class="blog-card-contents">
+              <div>
+                <img
+                  class="blog-card__image"
+                  src="./images/cactus_img.jpg"
+                  alt="Embracing Minimalism - image"
+                />
+              </div>
+              <div class="blog-card-tag-block">
+                <span class="blog-card__tag">Design</span>
+              </div>
+              <h4 class="blog-card__title">Embracing Minimalism</h4>
+              <p class="blog-card__description">
+                From minimalist sculptures to minimalist paintings, this blog
+                will inspire you to appreciate the beauty that lies in
+                simplicity.
+              </p>
+            </div>
+            <hr class="blog-card-border" />
+            <footer class="blog-card-footer">
+              <small class="blog-card-footer__author"> Annie Spratt </small>
+            </footer>
+          </div>
+        </section>
+      </div>
+    </main>
     <script type="module" src="/js/main.js"></script>
   </body>
 </html>
