@@ -8,10 +8,10 @@
 
 <div align="center">
   <h3>
-    <!-- <a href="https://h-yoshikawa44.github.io/minimal-blog-card/">
+    <a href="https://h-yoshikawa44.github.io/ch-minimal-blog-card/">
       Demo
     </a>
-    <span> | </span> -->
+    <span> | </span>
     <!-- <a href="">
       Solution
     </a>
@@ -43,11 +43,11 @@
 
 ### Desktop
 
-（スクショを貼る）
+![overview - desktop](/screenshots/desktop.png)
 
 ### Mobile
 
-（スクショを貼る）
+<img src="/screenshots/mobile.png" alt="overview - mobile" width="35%">
 
 ### Built With
 
@@ -58,7 +58,7 @@ Base
 - [HTML](https://developer.mozilla.org/ja/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/ja/docs/Web/CSS)
 - [Node.js](https://nodejs.org/)：20.9.0
-- [Vite](https://ja.vitejs.dev/)：5.0.0
+- [Vite](https://ja.vitejs.dev/)：5.0.7
 
 Other major libraries
 
@@ -70,9 +70,9 @@ Other major libraries
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenge/27) was to build an application to complete the given user stories.
 
-- [ ] Create a card component that matches the given design.
-- [ ] Use HTML to create the basic structure.
-- [ ] Use CSS to style the card.
+- [x] Create a card component that matches the given design.
+- [x] Use HTML to create the basic structure.
+- [x] Use CSS to style the card.
 
 ## How To Use
 
@@ -95,13 +95,18 @@ npm run dev
 
 ## learned/improved
 
-（後で書く）
+- I now understand the flow of the new devchallenges.
+- Although it was a simple assignment, it also provided an opportunity to test the introduction of new technologies, such as
+  - MarkupLint
+  - Lightning CSS
+  - nano-staged
 
 ## Acknowledgements
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-（後で書く）
+- [MarkupLint](https://markuplint.dev/ja/)
+- [Lightning CSS](https://lightningcss.dev/)
 
 ## Contact
 
