@@ -83,7 +83,7 @@ a {
   box-shadow: 0 30px 100px 0 rgb(17 23 41 / 5%);
 }
 
-.blog-card-contents {
+.blog-card__contents {
   padding: 0 16px;
 }
 
@@ -91,7 +91,7 @@ a {
   border-radius: 12px;
 }
 
-.blog-card-tag-block {
+.blog-card__tag-block {
   margin-top: 16px;
 }
 
@@ -118,7 +118,7 @@ a {
   color: var(--blog-text);
 }
 
-.blog-card-footer {
+.blog-card__footer {
   display: flex;
   align-items: end;
   height: 40px;
@@ -127,7 +127,7 @@ a {
   border-top: 1px solid var(--border);
 }
 
-.blog-card-footer__author {
+.blog-card__author {
   font-size: 0.75rem;
   color: var(--blog-text);
 }
