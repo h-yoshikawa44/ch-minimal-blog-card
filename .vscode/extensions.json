@@ -7,7 +7,7 @@
     "editorconfig.editorconfig",
     "naumovs.color-highlight",
     "zignd.html-css-class-completion",
-    "mkaufman.htmlhint",
+    "yusukehirao.vscode-markuplint",
     "esbenp.prettier-vscode",
     "stylelint.vscode-stylelint"
   ],
