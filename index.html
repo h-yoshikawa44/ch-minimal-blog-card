@@ -10,11 +10,51 @@
       content="devChallenges.io - Minimal Blog Card | by h-yoshikawa44"
     />
     <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico" />
+
+    <!-- CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora&amp;display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div id="app">
-      <h1>Vite App</h1>
-    </div>
+    <header class="header">
+      <h1>Minimal Blog Card</h1>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="blog-card-section">
+          <div class="blog-card">
+            <div class="blog-card__contents">
+              <div>
+                <img
+                  class="blog-card__image"
+                  width="336"
+                  height="152"
+                  src="./images/cactus_img.jpg"
+                  alt="Embracing Minimalism - image"
+                  decoding="async"
+                />
+              </div>
+              <div class="blog-card__tag-block">
+                <span class="blog-card__tag">Design</span>
+              </div>
+              <h4 class="blog-card__title">Embracing Minimalism</h4>
+              <p class="blog-card__description">
+                From minimalist sculptures to minimalist paintings, this blog
+                will inspire you to appreciate the beauty that lies in
+                simplicity.
+              </p>
+            </div>
+            <footer class="blog-card__footer">
+              <small class="blog-card__author"> Annie Spratt </small>
+            </footer>
+          </div>
+        </section>
+      </div>
+    </main>
     <script type="module" src="/js/main.js"></script>
   </body>
 </html>
