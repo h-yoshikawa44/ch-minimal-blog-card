@@ -1,4 +1,4 @@
-/* ref: https://andy-bell.co.uk/a-more-modern-css-reset/ */
+/* ref: https://andy-bell.co.uk/a-more-modern-css-reset/ がベース */
 
 /* Box sizing rules */
 *,
@@ -25,6 +25,7 @@ h4,
 p,
 figure,
 blockquote,
+hr,
 dl,
 dd {
   margin-block: 0 0;
