@@ -14,6 +14,9 @@ jobs:
     needs: check
     runs-on: ubuntu-22.04
     timeout-minutes: 5
+    permissions:
+      # gh-pages ブランチへの書き込み用
+      contents: write
 
     steps:
       - name: Checkout
