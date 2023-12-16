@@ -40,7 +40,7 @@
     "prepare-commit-msg": "./.githooks/prepare-commit-msg \"$@\""
   },
   "nano-staged": {
-    "./**/*.html": [
+    "**/*.html": [
       "markuplint --fix --problem-only",
       "prettier --write --loglevel=error"
     ],
@@ -48,7 +48,7 @@
       "stylelint --fix --quiet",
       "prettier --write --loglevel=error"
     ],
-    "./**/*.json": [
+    "**/*.json": [
       "prettier --write --loglevel=error"
     ]
   }
